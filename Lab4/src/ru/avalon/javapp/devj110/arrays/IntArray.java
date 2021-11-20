@@ -2,8 +2,8 @@ package ru.avalon.javapp.devj110.arrays;
 
 import java.util.Arrays;
 
-public class IntArray implements ru.avalon.javapp.devj110.arrays.UserArrays{
-     private final boolean[] values = new boolean[SIZE];
+public class IntArray implements UserArrays{
+
      private final int[] intValues = new int[SIZE/32];
      
     private void checkIndex(int index) {

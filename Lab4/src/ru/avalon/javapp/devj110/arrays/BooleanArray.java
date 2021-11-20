@@ -2,7 +2,7 @@ package ru.avalon.javapp.devj110.arrays;
 
 import java.util.Arrays;
 
-public class BooleanArray implements ru.avalon.javapp.devj110.arrays.UserArrays{
+public class BooleanArray implements UserArrays{
     private final boolean[] values = new boolean[SIZE];
     
     private void checkIndex(int index) {
