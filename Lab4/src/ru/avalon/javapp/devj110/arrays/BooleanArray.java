@@ -2,28 +2,14 @@ package ru.avalon.javapp.devj110.arrays;
 
 import java.util.Arrays;
 
-public class BooleanArray implements ru.avalon.javapp.devj110.arrays.Arrays{
+public class BooleanArray implements ru.avalon.javapp.devj110.arrays.UserArrays{
     private final boolean[] values = new boolean[SIZE];
     
     private void checkIndex(int index) {
         if(index < 0 || index >= SIZE)
             throw new IndexOutOfBoundsException("Выход за предел массива.");
     }
-//    private void checkIndex(int index) {
-//        if(index < 0 || index >= SIZE)
-//            try {
-//            throw new IndexOutOfBoundsException("Выход за предел массива");}
-//            catch (IndexOutOfBoundsException msg){
-//                System.out.println(msg.getMessage());
-//            }
-//    }
-
-//    public void setIndex(int index){
-//        if(index < 0 || index >= SIZE){
-//        System.out.println("Выход за предел массива");}
-//        else index=index;
-//    }
-            
+           
             
     @Override
     public boolean check(int index) {
