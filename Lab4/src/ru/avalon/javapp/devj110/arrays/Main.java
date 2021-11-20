@@ -1,20 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package ru.avalon.javapp.devj110.arrays;
 
-/**
- *
- * @author bezdetk0@mail.ru
- */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+Arrays array = new BooleanArray();
+array.set(3);
+array.set(4);
+array.set(5, true);
+array.reset(4);
+array.invert(7);
+System.out.println("Количество элементов, установленных в true: " + array.count());
+System.out.println("Проверка элемента с заданным индексом: " + array.check(3));
+System.out.println(array.toString());
+        
+        
     }
     
 }
