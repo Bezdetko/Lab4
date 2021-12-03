@@ -22,19 +22,23 @@ System.out.println();
 //Целочисленный массив
 System.out.println("ЦЕЛОЧИСЛЕННЫЙ МАССИВ");
 IntArray intArray = new IntArray();
-intArray.set(33);           //1
-intArray.set(3);            //2
-intArray.set(4);            //3
-intArray.reset(4);          //2
-intArray.set(32);           //3
-intArray.set(313);          //4
-intArray.set(323);          //5
-intArray.set(545);          //6
-intArray.set(234, true);    //7
-intArray.set(236, true);    //8
-intArray.set(236, false);   //7
-intArray.set(836, true);    //8
-intArray.invert(123);       //9
+intArray.set(33);  
+intArray.set(0);
+intArray.set(1);
+intArray.set(2); 
+intArray.set(3);
+intArray.set(4);
+intArray.set(5);
+intArray.set(6);
+intArray.set(32);
+intArray.set(313);
+intArray.set(323); 
+intArray.set(545);
+intArray.set(234, true);
+intArray.set(236, true);
+intArray.set(236, false);
+intArray.set(836, true);
+intArray.invert(123);
 System.out.println("Количество элементов, установленных в true: " + intArray.count());
 System.out.println("Проверка элемента с заданным индексом: " + intArray.check(33));
 System.out.println("Проверка элемента с заданным индексом: " + intArray.check(4));

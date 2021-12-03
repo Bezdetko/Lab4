@@ -63,7 +63,8 @@ public class IntArray implements UserArrays{
         String s = new String();
         for (int index: intValues){
            String sElemnt = String.format("%32s", Integer.toBinaryString(index)).replace(' ', '0');
-        s = s + " " + sElemnt;
+           sElemnt = new StringBuffer(sElemnt).reverse().toString();
+           s = s + sElemnt;
         }  
     return s;
 }
